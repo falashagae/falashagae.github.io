@@ -1,0 +1,1357 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>米娜学组vlog免费观看网站_米娜学组官方视频门户_米娜学组创作者内容社区</title>
+<meta name="description" content="米娜学组vlog免费观看网站是米娜学组品牌官方视频门户，提供原创高清Vlog、学习记录与创作者访谈，持续运营高品质内容生态，打造值得信赖的学习影像社区。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2318232e'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%2334d399' stroke-width='4'/%3E%3Cpath d='M27 23l16 9-16 9z' fill='%2334d399'/%3E%3C/svg%3E">
+<style>
+:root{
+  --mn-ink:#18232e;
+  --mn-ink-2:#26323f;
+  --mn-paper:#f4f7f6;
+  --mn-card:#ffffff;
+  --mn-line:#dbe4e2;
+  --mn-mint:#34d399;
+  --mn-mint-deep:#0f9f74;
+  --mn-mint-soft:#e3f7ef;
+  --mn-aqua:#2dd4bf;
+  --mn-text:#22303b;
+  --mn-muted:#5d6d78;
+  --mn-shadow:0 10px 30px rgba(24,35,46,.08);
+  --mn-radius:16px;
+  --mn-head-h:132px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;scroll-padding-top:var(--mn-head-h);}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",system-ui,sans-serif;
+  background:var(--mn-paper);
+  color:var(--mn-text);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img,svg{max-width:100%;}
+a{color:inherit;text-decoration:none;}
+h1,h2,h3,h4{margin:0;line-height:1.3;color:var(--mn-ink);}
+p{margin:0 0 10px;}
+ul,ol{margin:0;padding:0;list-style:none;}
+button{font-family:inherit;cursor:pointer;}
+.mn-skip{position:absolute;left:-9999px;top:0;}
+.mn-skip:focus{left:12px;top:12px;background:#fff;padding:8px 14px;border-radius:8px;z-index:200;}
+
+/* ============ 吸顶区：公告条 + 页头 ============ */
+.mn-stick{
+  position:sticky;top:0;z-index:120;
+  background:var(--mn-ink);
+  box-shadow:0 6px 22px rgba(24,35,46,.16);
+}
+.mn-announce{
+  background:linear-gradient(90deg,#0f9f74,#2dd4bf 55%,#34d399);
+  color:#05231b;
+  font-size:13px;
+  letter-spacing:.2px;
+}
+.mn-announce-inner{
+  max-width:1240px;margin:0 auto;padding:7px 22px;
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+}
+.mn-announce-tag{
+  background:#05231b;color:#9df5d3;font-size:11px;font-weight:700;
+  padding:2px 9px;border-radius:20px;white-space:nowrap;
+}
+.mn-announce-list{display:flex;gap:18px;flex-wrap:wrap;}
+.mn-announce-list li{display:flex;align-items:center;gap:6px;font-weight:600;}
+.mn-announce-list li::before{content:"";width:5px;height:5px;border-radius:50%;background:#05231b;opacity:.6;}
+.mn-announce-list a{text-decoration:underline;text-underline-offset:3px;}
+.mn-head{background:var(--mn-ink);}
+.mn-head-inner{
+  max-width:1240px;margin:0 auto;padding:12px 22px;
+  display:flex;align-items:center;gap:22px;flex-wrap:wrap;
+}
+.mn-brand{display:flex;align-items:center;gap:11px;color:#fff;}
+.mn-brand-mark{
+  width:42px;height:42px;border-radius:12px;flex:0 0 auto;
+  background:linear-gradient(135deg,var(--mn-mint),var(--mn-aqua));
+  display:grid;place-items:center;
+}
+.mn-brand-mark svg{width:22px;height:22px;}
+.mn-brand-name{font-size:19px;font-weight:800;letter-spacing:.5px;}
+.mn-brand-sub{display:block;font-size:11px;font-weight:500;color:#9fb3c0;letter-spacing:1.5px;}
+.mn-nav{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto;}
+.mn-nav a{
+  color:#c7d6df;font-size:14px;padding:7px 12px;border-radius:9px;
+  transition:.2s;white-space:nowrap;
+}
+.mn-nav a:hover,.mn-nav a.mn-is-active{background:rgba(52,211,153,.16);color:#8df5cd;}
+.mn-head-tools{display:flex;align-items:center;gap:10px;flex:1 1 260px;justify-content:flex-end;min-width:0;}
+.mn-search{position:relative;flex:1 1 190px;max-width:300px;min-width:120px;}
+.mn-search input{
+  width:100%;padding:9px 12px 9px 34px;border-radius:10px;border:1px solid #35495a;
+  background:#202d3a;color:#eaf5f1;font-size:13px;outline:none;transition:.2s;
+}
+.mn-search input:focus{border-color:var(--mn-mint);background:#16222d;box-shadow:0 0 0 3px rgba(52,211,153,.15);}
+.mn-search::before{
+  content:"";position:absolute;left:11px;top:50%;width:12px;height:12px;
+  border:2px solid #7f97a8;border-radius:50%;transform:translateY(-62%);
+}
+.mn-search::after{
+  content:"";position:absolute;left:21px;top:60%;width:6px;height:2px;background:#7f97a8;
+  transform:rotate(45deg);
+}
+.mn-search-tip{
+  position:absolute;left:0;right:0;top:calc(100% + 6px);background:#0f1a23;
+  border:1px solid #2c3c49;border-radius:10px;padding:8px 10px;font-size:12.5px;
+  color:#a8bcc8;display:none;z-index:30;line-height:1.5;
+}
+.mn-search-tip.mn-is-show{display:block;}
+.mn-btn-ghost{
+  background:transparent;border:1px solid #3a4d5c;color:#cfe0e7;font-size:13px;
+  padding:8px 14px;border-radius:10px;transition:.2s;white-space:nowrap;
+}
+.mn-btn-ghost:hover{border-color:var(--mn-mint);color:#8df5cd;}
+.mn-menu-toggle{
+  display:none;background:transparent;border:1px solid #3a4d5c;color:#d6e6eb;
+  border-radius:10px;padding:8px 10px;font-size:13px;
+}
+@media (max-width:980px){
+  .mn-nav{
+    display:none;order:5;flex:1 1 100%;margin:4px 0 0;
+    background:#16222d;border-radius:12px;padding:8px;
+  }
+  .mn-nav.mn-is-open{display:flex;}
+  .mn-nav a{flex:1 1 44%;text-align:center;}
+  .mn-menu-toggle{display:inline-block;}
+  .mn-head-tools{flex:1 1 150px;}
+}
+
+/* ============ 通用板块 ============ */
+.mn-wrap{max-width:1240px;margin:0 auto;padding:0 22px;}
+.mn-section{padding:64px 0;}
+.mn-section--tight{padding:44px 0;}
+.mn-section--dark{background:var(--mn-ink);color:#d8e6ea;}
+.mn-section--dark h2,.mn-section--dark h3{color:#fff;}
+.mn-section--dark .mn-eyebrow{color:#7ff0c4;}
+.mn-sec-head{margin-bottom:34px;max-width:840px;}
+.mn-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;
+  letter-spacing:2px;color:var(--mn-mint-deep);text-transform:uppercase;margin-bottom:10px;
+}
+.mn-eyebrow::before{content:"";width:22px;height:2px;background:currentColor;}
+.mn-sec-head h2{font-size:clamp(23px,2.8vw,32px);letter-spacing:.3px;}
+.mn-sec-head p{margin-top:10px;color:var(--mn-muted);font-size:15px;max-width:760px;}
+.mn-section--dark .mn-sec-head p{color:#a9bcc7;}
+.mn-chip{
+  display:inline-block;font-size:11.5px;font-weight:600;padding:2px 9px;
+  border-radius:20px;background:var(--mn-mint-soft);color:var(--mn-mint-deep);
+  letter-spacing:.3px;
+}
+.mn-chip--dark{background:rgba(52,211,153,.16);color:#7ff0c4;}
+.mn-chip--warn{background:#fff2d6;color:#9a6b05;}
+
+/* ============ 首屏 4:6 ============ */
+.mn-hero{padding:46px 0 56px;background:
+  radial-gradient(900px 420px at 12% -8%,rgba(52,211,153,.18),transparent 62%),
+  radial-gradient(700px 380px at 96% 4%,rgba(45,212,191,.14),transparent 60%),
+  var(--mn-paper);}
+.mn-hero-grid{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,6fr);gap:44px;align-items:center;}
+.mn-hero-badge{
+  display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;
+  color:var(--mn-mint-deep);background:#eafaf3;border:1px solid #c4ecdc;
+  padding:5px 12px;border-radius:30px;margin-bottom:18px;
+}
+.mn-hero-badge i{width:7px;height:7px;border-radius:50%;background:var(--mn-mint);display:block;}
+.mn-hero h1{font-size:clamp(30px,4.2vw,46px);letter-spacing:-.5px;line-height:1.18;}
+.mn-hero h1 em{
+  font-style:normal;color:var(--mn-mint-deep);
+  background:linear-gradient(180deg,transparent 68%,rgba(52,211,153,.32) 68%);
+}
+.mn-hero-lead{margin-top:16px;font-size:15.5px;color:var(--mn-muted);line-height:1.85;}
+.mn-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;}
+.mn-btn{
+  display:inline-flex;align-items:center;gap:8px;justify-content:center;
+  padding:12px 22px;border-radius:12px;font-size:14.5px;font-weight:700;
+  border:1px solid transparent;transition:.2s;
+}
+.mn-btn--primary{background:var(--mn-ink);color:#fff;}
+.mn-btn--primary:hover{background:#0f9f74;transform:translateY(-1px);}
+.mn-btn--soft{background:#fff;color:var(--mn-ink);border-color:var(--mn-line);}
+.mn-btn--soft:hover{border-color:var(--mn-mint);color:var(--mn-mint-deep);}
+.mn-hero-stats{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;
+  margin-top:28px;padding-top:22px;border-top:1px dashed #c9d9d5;
+}
+.mn-hero-stats b{display:block;font-size:23px;color:var(--mn-ink);letter-spacing:.5px;}
+.mn-hero-stats span{font-size:12.5px;color:var(--mn-muted);}
+.mn-hero-visual{position:relative;}
+.mn-hero-visual .mn-hero-shot{
+  border-radius:22px;overflow:hidden;box-shadow:0 26px 60px rgba(24,35,46,.22);
+  border:1px solid #dfeae7;background:#0e1a22;
+}
+.mn-hero-visual .mn-hero-shot svg{display:block;width:100%;height:auto;}
+.mn-hero-float{
+  position:absolute;left:-18px;bottom:-22px;background:#fff;border-radius:14px;
+  padding:12px 16px;box-shadow:var(--mn-shadow);border:1px solid var(--mn-line);
+  font-size:12.5px;color:var(--mn-muted);max-width:250px;
+}
+.mn-hero-float b{display:block;color:var(--mn-ink);font-size:14px;margin-bottom:2px;}
+@media (max-width:900px){
+  .mn-hero-grid{grid-template-columns:1fr;gap:30px;}
+  .mn-hero-float{left:8px;bottom:-16px;}
+}
+
+/* ============ 简介与解析 ============ */
+.mn-about-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:38px;align-items:start;}
+.mn-about-card{
+  background:var(--mn-card);border:1px solid var(--mn-line);border-radius:var(--mn-radius);
+  padding:26px;box-shadow:var(--mn-shadow);
+}
+.mn-about-card h3{font-size:19px;margin-bottom:10px;}
+.mn-about-card p{font-size:14.5px;color:var(--mn-muted);}
+.mn-about-list{margin-top:16px;display:grid;gap:10px;}
+.mn-about-list li{display:flex;gap:10px;font-size:14px;color:var(--mn-text);}
+.mn-about-list li::before{content:"◆";color:var(--mn-mint);font-size:10px;line-height:2.2;}
+.mn-analysis h3{font-size:18px;margin:26px 0 8px;}
+.mn-analysis h3:first-child{margin-top:0;}
+.mn-analysis p{font-size:14.5px;color:#3d4d58;text-align:justify;}
+.mn-analysis{background:#fff;border:1px solid var(--mn-line);border-radius:var(--mn-radius);padding:28px;}
+@media (max-width:860px){.mn-about-grid{grid-template-columns:1fr;}}
+
+/* ============ 焦点大图 + 列表（视频区） ============ */
+.mn-spot-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:30px;align-items:start;}
+.mn-spot-main{
+  background:#0f1a23;border-radius:20px;overflow:hidden;color:#e6f2ee;
+  box-shadow:0 18px 44px rgba(24,35,46,.2);
+}
+.mn-spot-main .mn-cover{display:block;width:100%;height:auto;}
+.mn-spot-body{padding:22px 24px 24px;}
+.mn-spot-body h3{color:#fff;font-size:21px;margin:10px 0 8px;}
+.mn-spot-body p{color:#a9bcc7;font-size:14px;}
+.mn-meta{display:flex;flex-wrap:wrap;gap:14px;font-size:12.5px;color:#8fa6b3;margin-top:12px;}
+.mn-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;}
+.mn-act{
+  background:#1b2a36;border:1px solid #2f4352;color:#cfe0e7;font-size:12.5px;
+  padding:6px 12px;border-radius:9px;display:inline-flex;align-items:center;gap:6px;transition:.2s;
+}
+.mn-act:hover{border-color:var(--mn-mint);color:#8df5cd;}
+.mn-act.mn-is-liked{background:rgba(52,211,153,.18);border-color:var(--mn-mint);color:#8df5cd;}
+.mn-act.mn-is-saved{background:rgba(45,212,191,.16);border-color:var(--mn-aqua);color:#8df5cd;}
+.mn-vlist{display:grid;gap:12px;}
+.mn-vitem{
+  background:#fff;border:1px solid var(--mn-line);border-radius:14px;padding:16px 18px;
+  transition:.22s;
+}
+.mn-vitem:hover{transform:translateY(-2px);box-shadow:var(--mn-shadow);border-color:#bfe6d8;}
+.mn-vitem h4{font-size:16px;margin-bottom:6px;}
+.mn-vitem p{font-size:13.5px;color:var(--mn-muted);margin:0 0 8px;}
+.mn-vitem-top{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px;}
+.mn-vitem-foot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:12px;color:#7d8f9a;}
+.mn-vitem-foot .mn-act{padding:4px 10px;font-size:12px;background:#f3f9f7;border-color:#d5e8e1;color:#2b6e58;}
+.mn-vitem-foot .mn-act.mn-is-liked{background:var(--mn-mint-soft);border-color:var(--mn-mint);color:var(--mn-mint-deep);}
+@media (max-width:860px){.mn-spot-grid{grid-template-columns:1fr;}}
+
+/* ============ 专题 ============ */
+.mn-topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;}
+.mn-topic{
+  background:#fff;border:1px solid var(--mn-line);border-radius:16px;padding:22px;
+  display:flex;flex-direction:column;gap:10px;transition:.22s;
+}
+.mn-topic:hover{box-shadow:var(--mn-shadow);transform:translateY(-2px);}
+.mn-topic h3{font-size:17px;}
+.mn-topic .mn-topic-items{display:grid;gap:7px;margin-top:4px;}
+.mn-topic .mn-topic-items li{font-size:13.5px;color:#455862;padding-left:16px;position:relative;}
+.mn-topic .mn-topic-items li::before{content:"›";position:absolute;left:2px;color:var(--mn-mint-deep);font-weight:700;}
+@media (max-width:900px){.mn-topic-grid{grid-template-columns:1fr;}}
+
+/* ============ 作者双列简介 ============ */
+.mn-author-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;}
+.mn-author{
+  background:#fff;border:1px solid var(--mn-line);border-radius:16px;padding:22px;
+  display:grid;grid-template-columns:64px minmax(0,1fr);gap:16px;align-items:start;transition:.22s;
+}
+.mn-author:hover{box-shadow:var(--mn-shadow);}
+.mn-avatar{
+  width:64px;height:64px;border-radius:50%;display:grid;place-items:center;
+  font-size:20px;font-weight:800;color:#fff;letter-spacing:1px;flex:0 0 auto;
+}
+.mn-author h3{font-size:16.5px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.mn-author .mn-author-meta{font-size:12.5px;color:var(--mn-muted);margin:4px 0 8px;}
+.mn-author p{font-size:13.5px;color:#475963;margin:0 0 10px;}
+.mn-author-foot{display:flex;gap:8px;flex-wrap:wrap;}
+.mn-author-foot button{
+  font-size:12px;padding:5px 12px;border-radius:8px;border:1px solid var(--mn-line);
+  background:#f7fbfa;color:#2b6e58;transition:.2s;
+}
+.mn-author-foot button:hover{border-color:var(--mn-mint);background:var(--mn-mint-soft);}
+@media (max-width:900px){.mn-author-grid{grid-template-columns:1fr;}}
+
+/* ============ 榜单/索引 ============ */
+.mn-rank-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:26px;}
+.mn-rank-card{background:#fff;border:1px solid var(--mn-line);border-radius:16px;padding:22px;}
+.mn-rank-card h3{font-size:17px;margin-bottom:14px;display:flex;align-items:center;gap:8px;}
+.mn-rank-list li{
+  display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:10px;align-items:center;
+  padding:10px 0;border-bottom:1px dashed #e2ebe8;font-size:14px;
+}
+.mn-rank-list li:last-child{border-bottom:0;}
+.mn-rank-no{font-weight:800;color:#9fb3ae;font-size:14px;}
+.mn-rank-list li:nth-child(1) .mn-rank-no{color:var(--mn-mint-deep);}
+.mn-rank-list li:nth-child(2) .mn-rank-no{color:#2aa37c;}
+.mn-rank-list li:nth-child(3) .mn-rank-no{color:#5d8c7e;}
+.mn-rank-title{color:var(--mn-text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.mn-rank-val{font-size:12.5px;color:var(--mn-muted);white-space:nowrap;}
+.mn-index-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:26px;}
+.mn-index-item{display:grid;grid-template-columns:96px minmax(0,1fr);gap:14px;background:#fff;border:1px solid var(--mn-line);border-radius:14px;padding:14px;align-items:start;}
+.mn-index-thumb{border-radius:10px;overflow:hidden;background:#e7f2ee;}
+.mn-index-thumb svg{display:block;width:100%;height:auto;}
+.mn-index-item h4{font-size:14.5px;margin-bottom:4px;}
+.mn-index-item p{font-size:12.5px;color:var(--mn-muted);margin:0;}
+@media (max-width:900px){.mn-rank-grid,.mn-index-grid{grid-template-columns:1fr;}}
+
+/* ============ 评论区（双列） ============ */
+.mn-comment-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+.mn-cmt{
+  background:#fff;border:1px solid var(--mn-line);border-left:4px solid var(--mn-mint);
+  border-radius:12px;padding:16px;font-size:14px;color:#3c4d58;
+}
+.mn-cmt-head{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+.mn-cmt-ava{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:13px;font-weight:700;flex:0 0 auto;}
+.mn-cmt-name{font-size:13.5px;font-weight:700;color:var(--mn-ink);}
+.mn-cmt-tag{font-size:11px;color:var(--mn-muted);}
+.mn-cmt p{margin:0;font-size:13.5px;line-height:1.7;}
+@media (max-width:820px){.mn-comment-grid{grid-template-columns:1fr;}}
+
+/* ============ 辅助：动态/合作/FAQ ============ */
+.mn-aux-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:26px;}
+.mn-panel{background:#fff;border:1px solid var(--mn-line);border-radius:16px;padding:24px;}
+.mn-panel h3{font-size:17px;margin-bottom:14px;}
+.mn-news-list li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;padding:10px 0;border-bottom:1px dashed #e2ebe8;font-size:13.5px;color:#3c4d58;}
+.mn-news-list li:last-child{border-bottom:0;}
+.mn-news-date{font-size:12px;color:var(--mn-mint-deep);font-weight:700;white-space:nowrap;}
+.mn-partner-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:4px;}
+.mn-partner{
+  border:1px solid var(--mn-line);border-radius:11px;padding:12px;font-size:13px;
+  font-weight:700;color:#3c4d58;display:flex;align-items:center;gap:8px;background:#f8fcfb;
+}
+.mn-partner i{width:8px;height:8px;border-radius:2px;background:var(--mn-mint);display:block;flex:0 0 auto;}
+.mn-faq{margin-top:6px;}
+.mn-faq details{
+  border:1px solid var(--mn-line);border-radius:12px;padding:12px 16px;background:#fff;margin-bottom:10px;
+}
+.mn-faq summary{
+  font-size:14px;font-weight:700;color:var(--mn-ink);cursor:pointer;list-style:none;
+  display:flex;justify-content:space-between;gap:12px;align-items:center;
+}
+.mn-faq summary::-webkit-details-marker{display:none;}
+.mn-faq summary::after{content:"＋";color:var(--mn-mint-deep);font-weight:800;}
+.mn-faq details[open] summary::after{content:"－";}
+.mn-faq details p{margin:10px 0 0;font-size:13.5px;color:var(--mn-muted);}
+@media (max-width:860px){.mn-aux-grid{grid-template-columns:1fr;}}
+
+/* ============ 投稿 CTA ============ */
+.mn-cta{
+  background:linear-gradient(120deg,#0f9f74,#18232e 72%);
+  border-radius:22px;padding:38px;color:#e6f2ee;display:grid;
+  grid-template-columns:minmax(0,1fr) auto;gap:22px;align-items:center;
+}
+.mn-cta h2{color:#fff;font-size:clamp(21px,2.6vw,28px);}
+.mn-cta p{color:#b9d8cd;font-size:14px;margin-top:8px;max-width:640px;}
+.mn-cta-actions{display:flex;gap:10px;flex-wrap:wrap;}
+.mn-cta .mn-btn--primary{background:#fff;color:#0f3b2e;}
+.mn-cta .mn-btn--primary:hover{background:var(--mn-mint);color:#04241b;}
+@media (max-width:820px){.mn-cta{grid-template-columns:1fr;padding:28px;}}
+
+/* ============ 页脚 ============ */
+.mn-footer{background:#0d1620;color:#9db1bd;padding:52px 0 26px;}
+.mn-footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;}
+.mn-footer h4{color:#e6f2ee;font-size:14.5px;margin-bottom:12px;}
+.mn-footer p{font-size:13px;line-height:1.85;}
+.mn-footer ul li{font-size:13px;padding:4px 0;}
+.mn-footer ul li a:hover{color:#8df5cd;}
+.mn-footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:12px;color:#fff;font-weight:800;font-size:17px;}
+.mn-footer-brand .mn-brand-mark{width:36px;height:36px;border-radius:10px;}
+.mn-footer-bottom{
+  margin-top:34px;padding-top:18px;border-top:1px solid #22303c;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.5px;color:#7e93a0;
+}
+@media (max-width:860px){.mn-footer-grid{grid-template-columns:1fr 1fr;}}
+
+/* ============ 弹窗/Toast/回顶 ============ */
+.mn-modal-mask{
+  position:fixed;inset:0;background:rgba(8,16,22,.62);display:none;z-index:300;
+  align-items:center;justify-content:center;padding:20px;
+}
+.mn-modal-mask.mn-is-open{display:flex;}
+.mn-modal{
+  background:#fff;border-radius:18px;max-width:520px;width:100%;padding:26px;
+  max-height:86vh;overflow:auto;box-shadow:0 30px 80px rgba(0,0,0,.35);
+}
+.mn-modal h3{font-size:19px;margin-bottom:10px;}
+.mn-modal p{font-size:14px;color:var(--mn-muted);}
+.mn-modal-close{
+  float:right;border:0;background:#f0f6f4;color:#3c4d58;border-radius:9px;
+  width:32px;height:32px;font-size:16px;line-height:1;
+}
+.mn-form-row{margin-top:14px;}
+.mn-form-row label{display:block;font-size:12.5px;font-weight:700;color:#3c4d58;margin-bottom:6px;}
+.mn-form-row input,.mn-form-row textarea,.mn-form-row select{
+  width:100%;padding:10px 12px;border:1px solid var(--mn-line);border-radius:10px;
+  font-family:inherit;font-size:13.5px;outline:none;background:#fbfdfc;color:var(--mn-text);
+}
+.mn-form-row textarea{min-height:96px;resize:vertical;}
+.mn-form-row input:focus,.mn-form-row textarea:focus,.mn-form-row select:focus{border-color:var(--mn-mint);}
+.mn-form-actions{margin-top:18px;display:flex;gap:10px;justify-content:flex-end;}
+.mn-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);opacity:0;
+  background:var(--mn-ink);color:#e6f2ee;padding:11px 20px;border-radius:30px;
+  font-size:13.5px;z-index:400;transition:.28s;pointer-events:none;border:1px solid #2f4352;
+}
+.mn-toast.mn-is-show{opacity:1;transform:translate(-50%,0);}
+.mn-totop{
+  position:fixed;right:20px;bottom:24px;width:44px;height:44px;border-radius:50%;
+  border:1px solid var(--mn-line);background:#fff;color:var(--mn-ink);font-size:16px;
+  box-shadow:var(--mn-shadow);display:none;z-index:200;
+}
+.mn-totop.mn-is-show{display:block;}
+.mn-top-tip{display:block;font-size:12px;color:var(--mn-muted);margin-top:6px;}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+<a class="mn-skip" href="#mn-main">跳到主要内容</a>
+
+<!-- ============ 公告条 + 页头（吸顶） ============ -->
+<div class="mn-stick">
+  <div class="mn-announce">
+    <div class="mn-announce-inner">
+      <span class="mn-announce-tag">官方发布</span>
+      <ul class="mn-announce-list">
+        <li>11月新番《米娜的一百天自习室》第 08 集上线</li>
+        <li>「冬季学习挑战赛」报名开启，12月1日截止</li>
+        <li>创作者投稿通道升级，支持高清原片上传</li>
+      </ul>
+    </div>
+  </div>
+  <header class="mn-head">
+    <div class="mn-head-inner">
+      <a class="mn-brand" href="#mn-hero">
+        <span class="mn-brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M9 6l10 6-10 6z" fill="#04261d"/></svg>
+        </span>
+        <span>
+          <span class="mn-brand-name">米娜学组</span>
+          <span class="mn-brand-sub">MINA STUDY GROUP</span>
+        </span>
+      </a>
+      <nav class="mn-nav" id="mn-nav" aria-label="主导航">
+        <a href="#mn-hero" class="mn-is-active">首页</a>
+        <a href="#mn-about">关于米娜</a>
+        <a href="#mn-videos">精选视频</a>
+        <a href="#mn-topics">专题企划</a>
+        <a href="#mn-authors">创作者</a>
+        <a href="#mn-community">社区评价</a>
+        <a href="#mn-help">帮助中心</a>
+      </nav>
+      <div class="mn-head-tools">
+        <div class="mn-search">
+          <input id="mn-search-input" type="search" placeholder="搜索Vlog、作者、专题" aria-label="站内搜索">
+          <div class="mn-search-tip" id="mn-search-tip"></div>
+        </div>
+        <button class="mn-btn-ghost" id="mn-submit-btn" type="button">我要投稿</button>
+        <button class="mn-menu-toggle" id="mn-menu-toggle" type="button" aria-expanded="false" aria-controls="mn-nav">菜单</button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="mn-main">
+
+  <!-- ============ S2 首屏 ============ -->
+  <section class="mn-hero" id="mn-hero">
+    <div class="mn-wrap mn-hero-grid">
+      <div>
+        <span class="mn-hero-badge"><i></i>米娜学组官方网站 · 品牌官方视频门户</span>
+        <h1>米娜学组vlog免费观看网站</h1>
+        <p class="mn-hero-lead">
+          作为深耕学习记录与成长影像领域的原创视频品牌，米娜学组以 Vlog 记录真实的学习日常、备考复盘与技能练习现场。
+          这里既是米娜学组的官方网站，也是每位学习同好可以长期停留的内容社区——看片、收藏、投稿、交流，一站完成。
+        </p>
+        <div class="mn-hero-actions">
+          <a class="mn-btn mn-btn--primary" href="#mn-videos">免费观看精选 Vlog</a>
+          <a class="mn-btn mn-btn--soft" href="#mn-authors">认识创作者</a>
+        </div>
+        <div class="mn-hero-stats">
+          <div><b>1,860+</b><span>原创 Vlog 正片</span></div>
+          <div><b>42.6万</b><span>社区注册学习同好</span></div>
+          <div><b>96.4%</b><span>用户首选口碑评分</span></div>
+        </div>
+      </div>
+      <div class="mn-hero-visual">
+        <div class="mn-hero-shot">
+          <svg viewBox="0 0 720 500" role="img" aria-label="米娜学组官方主视觉：清晨书桌上的学习Vlog拍摄场景">
+            <defs>
+              <linearGradient id="mnHeroSky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#0f2b3a"/><stop offset="1" stop-color="#123f42"/>
+              </linearGradient>
+              <linearGradient id="mnHeroDesk" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#1c4a46"/><stop offset="1" stop-color="#0c2626"/>
+              </linearGradient>
+              <linearGradient id="mnHeroGlow" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#34d399" stop-opacity=".85"/><stop offset="1" stop-color="#2dd4bf" stop-opacity=".1"/>
+              </linearGradient>
+            </defs>
+            <rect width="720" height="500" fill="url(#mnHeroSky)"/>
+            <circle cx="560" cy="110" r="150" fill="#34d399" opacity=".08"/>
+            <circle cx="170" cy="360" r="190" fill="#2dd4bf" opacity=".07"/>
+            <rect x="330" y="60" width="120" height="240" rx="8" fill="#0a1f28" stroke="#2a5a58" stroke-width="3"/>
+            <rect x="344" y="76" width="92" height="150" rx="4" fill="#123a40"/>
+            <path d="M360 96h60M360 118h60M360 140h42" stroke="#34d399" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+            <rect x="366" y="240" width="48" height="10" rx="5" fill="#2a5a58"/>
+            <rect x="0" y="330" width="720" height="170" fill="url(#mnHeroDesk)"/>
+            <rect x="0" y="330" width="720" height="6" fill="#2f7a6c" opacity=".55"/>
+            <rect x="70" y="286" width="150" height="96" rx="6" fill="#e8f5ef"/>
+            <path d="M88 308h114M88 326h96M88 344h112M88 362h70" stroke="#9ec9bc" stroke-width="4" stroke-linecap="round"/>
+            <rect x="176" y="270" width="12" height="26" rx="4" fill="#34d399"/>
+            <circle cx="300" cy="300" r="34" fill="#2dd4bf" opacity=".22"/>
+            <rect x="272" y="278" width="56" height="72" rx="8" fill="#0a1f28" stroke="#34d399" stroke-width="3"/>
+            <path d="M300 292v30" stroke="#34d399" stroke-width="4" stroke-linecap="round"/>
+            <path d="M288 306h24" stroke="#34d399" stroke-width="4" stroke-linecap="round"/>
+            <rect x="470" y="250" width="180" height="80" rx="10" fill="#0b2530" stroke="#2a5a58" stroke-width="3"/>
+            <rect x="486" y="266" width="120" height="10" rx="5" fill="url(#mnHeroGlow)"/>
+            <rect x="486" y="286" width="148" height="8" rx="4" fill="#2a5a58"/>
+            <rect x="486" y="302" width="96" height="8" rx="4" fill="#2a5a58"/>
+            <circle cx="618" cy="290" r="9" fill="#34d399"/>
+            <path d="M600 388c40-26 92-26 132 0" stroke="#2f7a6c" stroke-width="5" fill="none" stroke-linecap="round" opacity=".5"/>
+            <rect x="40" y="404" width="240" height="56" rx="10" fill="#08222a" stroke="#2a5a58" stroke-width="2"/>
+            <circle cx="70" cy="432" r="13" fill="#34d399"/>
+            <path d="M65 426l11 6-11 6z" fill="#06251d"/>
+            <rect x="94" y="420" width="150" height="8" rx="4" fill="#3a6d65"/>
+            <rect x="94" y="438" width="104" height="8" rx="4" fill="#2a5550"/>
+            <path d="M640 60l40 24-40 24z" fill="#34d399" opacity=".5"/>
+          </svg>
+        </div>
+        <div class="mn-hero-float">
+          <b>正在直播 · 晚间自习室</b>
+          每晚 20:00 米娜与学组创作者陪学，可弹幕打卡，也可静音自习。
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 简介 + 关键词解析 ============ -->
+  <section class="mn-section" id="mn-about">
+    <div class="mn-wrap">
+      <div class="mn-sec-head">
+        <span class="mn-eyebrow">About Mina</span>
+        <h2>米娜学组企业简介与内容生态解析</h2>
+        <p>一个以真实学习记录为核心的视频品牌，如何把零散的备考日常做成可持续的内容生态。</p>
+      </div>
+      <div class="mn-about-grid">
+        <div class="mn-about-card">
+          <h3>米娜学组是一家什么平台</h3>
+          <p>
+            米娜学组成立于 2019 年，是一家专注学习影像与成长记录的原创视频企业。作为米娜学组官方网站，平台以 Vlog 为载体，持续输出备考复盘、技能练习、书桌整理、访学日常等精品内容，为学习者提供免费、高清、可长期回看的观看入口。团队坚持正版原创与品质优先，累计上线 1860 余部作品，与 320 位签约创作者共建内容生态。我们相信，陪伴比说教更有力量，真实比精致更值得记录，因此把镜头交给每一个正在努力的人，让米娜学组成为用户首选的学习影像社区。
+          </p>
+          <ul class="mn-about-list">
+            <li>垂直领域专注：学习记录、备考复盘、效率方法、校园与访学生活</li>
+            <li>官方运营机制：内容三审、版权登记、创作者分成与成长扶持计划</li>
+            <li>社区共治：举报反馈通道、评价体系、季度口碑榜与挑战赛</li>
+          </ul>
+        </div>
+        <div class="mn-analysis">
+          <h3>一、为什么米娜学组vlog免费观看网站值得长期收藏</h3>
+          <p>
+            很多学习类视频的问题在于「看起来热闹、用起来空洞」。米娜学组的做法是把每一支 Vlog 拆成可执行的三段结构：前段交代今天要解决的具体任务，中段完整呈现真实执行过程，包括卡壳、走神、返工，后段复盘效果并给出下一次的调整方向。这种结构让观众不是看完就走，而是可以对照自己的书桌、自己的错题本、自己的时间表去迁移。作为官方网站，我们坚持全部免费观看，同时严格区分广告内容与正片内容，页面上不设置强制跳转，保证一次点击就能进入播放页。对于正在准备考试、转行学习或长期自我提升的用户来说，这样的平台比碎片化短视频更适合建立稳定的观看节奏。
+          </p>
+          <h3>二、内容分类与更新节奏：从日常记录到深度复盘</h3>
+          <p>
+            站内内容按六个固定栏目组织：自习室直播、单日学习记录、周复盘、方法教程、访学城市记录、创作者访谈。自习室直播每个工作日 20:00 开播，支持静音跟学；单日学习记录每支 8 至 15 分钟，保留环境音与白噪音，适合作为学习背景；周复盘集中在每周日晚发布，涵盖本周任务完成率、情绪波动与下周计划。方法教程偏向干货，如错题三色法、番茄钟变体、纸质笔记与电子笔记的搭配；访学城市记录把学习放进具体地理语境，拍图书馆、通勤、咖啡馆自习区；创作者访谈则以对话形式呈现不同学习路径的取舍。作为持续运营的视频品牌，米娜学组每月固定上新 40 支以上正片，每季度推出一个大型专题企划，保证观众有稳定而可预期的新内容可看。
+          </p>
+          <h3>三、社区、创作者与品质控制：一个可持续的内容生态</h3>
+          <p>
+            米娜学组把创作者视为内容生态的核心资产。新创作者从「学组练习生」起步，通过上传通道提交样片，经编辑部反馈后进入扶持计划，获得脚本指导、拍摄器材借用与流量曝光；成熟创作者可以参与专题企划、开设个人专栏、参与线下共学活动。为了保证品质，平台建立了三审机制：选题审、成片审、上线前合规审，并对所有正片做版权登记。社区侧则依靠评价体系、季度口碑榜与举报反馈保持活力，观众可以对画面、信息密度、剪辑节奏分别打分，帮助创作者找到改进方向。我们同时承担社会责任，长期开放公益自习室合作、乡村学校影像记录计划与青少年媒介素养课程，让学习影像的价值不只停留在播放量上。对用户而言，这意味着每一次点开米娜学组的页面，看到的都是被认真对待过的内容。
+          </p>
+          <p>
+            如果你在寻找一个不吵、不催、不卖焦虑的学习视频社区，米娜学组愿意成为那个长期在线的陪伴者。你可以先看一支十分钟的自习记录，再决定是否加入社区；也可以直接打开专题企划，按自己的考试时间线选择对应内容。我们相信，真正值得信赖的官方网站，不是靠一次活动拉新，而是靠稳定的更新、清晰的分类和可被检验的口碑，陪你走过一整段成长。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ S3 焦点大图 + 视频列表 ============ -->
+  <section class="mn-section mn-section--dark" id="mn-videos">
+    <div class="mn-wrap">
+      <div class="mn-sec-head">
+        <span class="mn-eyebrow">Featured Vlog</span>
+        <h2>本周焦点 Vlog：免费观看的精品学习影像</h2>
+        <p>米娜学组编辑部每周三更新焦点位，从当期投稿与签约创作者新作中挑选一支重点推荐，其余以文字索引形式呈现，方便快速浏览。</p>
+      </div>
+      <div class="mn-spot-grid">
+        <article class="mn-spot-main">
+          <svg class="mn-cover" viewBox="0 0 720 405" role="img" aria-label="焦点Vlog封面：冬日凌晨六点的图书馆自习桌与错题本">
+            <defs>
+              <linearGradient id="mnSpotBg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#0b1f2a"/><stop offset="1" stop-color="#14403a"/>
+              </linearGradient>
+              <linearGradient id="mnSpotWin" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#2dd4bf" stop-opacity=".5"/><stop offset="1" stop-color="#0b1f2a" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <rect width="720" height="405" fill="url(#mnSpotBg)"/>
+            <rect x="40" y="40" width="220" height="190" rx="8" fill="#0a1a22" stroke="#2f6d64" stroke-width="3"/>
+            <rect x="56" y="56" width="188" height="158" rx="4" fill="url(#mnSpotWin)"/>
+            <path d="M120 200c14-26 44-26 58 0" stroke="#34d399" stroke-width="3" fill="none" opacity=".6"/>
+            <circle cx="200" cy="94" r="16" fill="#34d399" opacity=".35"/>
+            <rect x="0" y="270" width="720" height="135" fill="#08181f"/>
+            <rect x="0" y="270" width="720" height="5" fill="#2f6d64" opacity=".7"/>
+            <rect x="330" y="150" width="330" height="120" rx="10" fill="#0f2c30" stroke="#2f6d64" stroke-width="3"/>
+            <rect x="352" y="172" width="120" height="14" rx="7" fill="#34d399"/>
+            <rect x="352" y="200" width="200" height="10" rx="5" fill="#3d7a70"/>
+            <rect x="352" y="222" width="160" height="10" rx="5" fill="#2c5c55"/>
+            <rect x="352" y="244" width="220" height="10" rx="5" fill="#2c5c55"/>
+            <rect x="240" y="300" width="180" height="14" rx="7" fill="#34d399" opacity=".6"/>
+            <rect x="240" y="326" width="260" height="10" rx="5" fill="#1f4a44"/>
+            <rect x="240" y="346" width="200" height="10" rx="5" fill="#1f4a44"/>
+            <circle cx="620" cy="70" r="46" fill="none" stroke="#34d399" stroke-width="3" opacity=".5"/>
+            <path d="M610 56l24 14-24 14z" fill="#34d399" opacity=".8"/>
+            <rect x="48" y="300" width="140" height="56" rx="8" fill="#0d2a2c" stroke="#2f6d64" stroke-width="2"/>
+            <rect x="62" y="316" width="70" height="8" rx="4" fill="#34d399" opacity=".7"/>
+            <rect x="62" y="332" width="100" height="8" rx="4" fill="#2c5c55"/>
+          </svg>
+          <div class="mn-spot-body">
+            <span class="mn-chip mn-chip--dark">本期焦点 · 自习室纪录</span>
+            <h3>《凌晨六点的图书馆：一百天自习室》第 08 集</h3>
+            <p>
+              本集跟拍米娜在冬季访学期间的固定作息：五点五十起床，六点十分进入图书馆三层靠窗座位，用 25 分钟一节的方式完成三组专业课复习。
+              片中完整保留了第一次模拟考失误后的情绪调整过程，以及把错题本从「记录」改为「重做」的方法迭代。
+            </p>
+            <div class="mn-meta">
+              <span>作者：米娜</span><span>时长 14:26</span><span>播放 38.2万</span><span>收藏 2.1万</span>
+            </div>
+            <div class="mn-actions">
+              <button class="mn-act" type="button" data-mn-like="focus">♡ 点赞 <b>9,842</b></button>
+              <button class="mn-act" type="button" data-mn-save="focus">☆ 收藏</button>
+              <button class="mn-act" type="button" data-mn-comment="focus">评论 1,206</button>
+              <button class="mn-act" type="button" data-mn-share="《凌晨六点的图书馆》第 08 集">分享</button>
+            </div>
+          </div>
+        </article>
+        <div class="mn-vlist" id="mn-video-list">
+          <article class="mn-vitem">
+            <div class="mn-vitem-top"><span class="mn-chip mn-chip--dark">单日记录</span><span class="mn-chip mn-chip--dark">效率方法</span></div>
+            <h4>把 90 分钟用成 3 小时：一个错题本改造实验</h4>
+            <p>三色标注法失效之后，米娜把错题本重新拆成「原题、错因、重做」三栏，两周后同类错误率下降 41%。</p>
+            <div class="mn-vitem-foot">
+              <span>米娜</span><span>12:08</span><span>播放 21.4万</span>
+              <button class="mn-act" type="button" data-mn-like="v1">♡ 2,106</button>
+              <button class="mn-act" type="button" data-mn-save="v1">☆ 收藏</button>
+            </div>
+          </article>
+          <article class="mn-vitem">
+            <div class="mn-vitem-top"><span class="mn-chip mn-chip--dark">访学城市</span><span class="mn-chip mn-chip--dark">城市探索</span></div>
+            <h4>在陌生城市找到自己的自习位：三条筛选原则</h4>
+            <p>从图书馆、社区自习室到独立咖啡店，考察噪音、插座、停留时长与通勤成本，给出可直接照做的选址清单。</p>
+            <div class="mn-vitem-foot">
+              <span>林一白</span><span>10:42</span><span>播放 17.8万</span>
+              <button class="mn-act" type="button" data-mn-like="v2">♡ 1,730</button>
+              <button class="mn-act" type="button" data-mn-save="v2">☆ 收藏</button>
+            </div>
+          </article>
+          <article class="mn-vitem">
+            <div class="mn-vitem-top"><span class="mn-chip mn-chip--dark">人物访谈</span><span class="mn-chip mn-chip--dark">成长故事</span></div>
+            <h4>从挂科到保研：创作者阿舟的三年时间表复盘</h4>
+            <p>访谈形式呈现，重点讨论低谷期如何重建作息、如何向老师求助、以及如何避免表演式努力。</p>
+            <div class="mn-vitem-foot">
+              <span>阿舟</span><span>18:35</span><span>播放 26.9万</span>
+              <button class="mn-act" type="button" data-mn-like="v3">♡ 3,120</button>
+              <button class="mn-act" type="button" data-mn-save="v3">☆ 收藏</button>
+            </div>
+          </article>
+          <article class="mn-vitem">
+            <div class="mn-vitem-top"><span class="mn-chip mn-chip--dark">教程干货</span><span class="mn-chip mn-chip--dark">知识科普</span></div>
+            <h4>纸质笔记与电子笔记如何分工：一份可执行方案</h4>
+            <p>用「输入靠纸、检索靠电」的原则划分场景，附上米娜自己使用两年的目录结构与标签体系。</p>
+            <div class="mn-vitem-foot">
+              <span>苏禾</span><span>09:17</span><span>播放 14.2万</span>
+              <button class="mn-act" type="button" data-mn-like="v4">♡ 1,264</button>
+              <button class="mn-act" type="button" data-mn-save="v4">☆ 收藏</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ S4 专题企划 ============ -->
+  <section class="mn-section" id="mn-topics">
+    <div class="mn-wrap">
+      <div class="mn-sec-head">
+        <span class="mn-eyebrow">Special Projects</span>
+        <h2>专题企划：围绕一个目标长期跟拍</h2>
+        <p>米娜学组的专题不是合集，而是有明确起点、过程与结果的连续企划。每个专题均由编辑部与创作者共同策划，并提供进度更新。</p>
+      </div>
+      <div class="mn-topic-grid">
+        <article class="mn-topic">
+          <span class="mn-chip">进行中 · 已更新 8 期</span>
+          <h3>一百天自习室</h3>
+          <p>从秋季到冬季，记录一百天里每天六点进入图书馆的完整过程，包含失败、返工与状态波动。</p>
+          <ul class="mn-topic-items">
+            <li>第 06 集：模拟考崩盘后的四十八小时</li>
+            <li>第 07 集：把周计划压缩到一张卡片</li>
+            <li>第 08 集：凌晨六点的图书馆</li>
+          </ul>
+        </article>
+        <article class="mn-topic">
+          <span class="mn-chip">报名中 · 12月1日截止</span>
+          <h3>冬季学习挑战赛</h3>
+          <p>面向全体社区用户的公开挑战，连续二十一天上传学习记录片段即可参与评选，优秀作品进入首页焦点位。</p>
+          <ul class="mn-topic-items">
+            <li>赛制说明：每日有效片段不少于 60 秒</li>
+            <li>评选维度：真实度、信息密度、剪辑完成度</li>
+            <li>奖励：创作扶持金与官方认证标识</li>
+          </ul>
+        </article>
+        <article class="mn-topic">
+          <span class="mn-chip mn-chip--warn">已完结 · 可回看</span>
+          <h3>访学城市自习地图</h3>
+          <p>把学习放进具体城市：图书馆、社区自习室、通勤路线与咖啡馆，形成一份可复用的自选手册。</p>
+          <ul class="mn-topic-items">
+            <li>第一站：老城区图书馆的靠窗座位</li>
+            <li>第二站：社区自习室的性价比评估</li>
+            <li>第三站：咖啡馆自习的边界感</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ S5 作者矩阵 ============ -->
+  <section class="mn-section mn-section--tight" id="mn-authors">
+    <div class="mn-wrap">
+      <div class="mn-sec-head">
+        <span class="mn-eyebrow">Creators</span>
+        <h2>创作者矩阵：米娜学组背后的真实记录者</h2>
+        <p>四位长期合作的创作者，分别覆盖自习纪录、方法教程、访学观察与访谈叙事。每位创作者都经过官方认证与内容三审。</p>
+      </div>
+      <div class="mn-author-grid">
+        <article class="mn-author">
+          <div class="mn-avatar" style="background:linear-gradient(135deg,#0f9f74,#2dd4bf)">米</div>
+          <div>
+            <h3>米娜 <span class="mn-chip">官方认证</span></h3>
+            <div class="mn-author-meta">擅长：自习纪录 / 备考复盘 · 作品 326 · 粉丝 21.8万</div>
+            <p>米娜学组主理人，三年前开始用手机记录自己的备考日常，坚持不补拍、不美化。她的镜头里常有走神、返工和拖延，也正因如此被大量学习者称为「最像我自己的学习博主」。近两年专注一百天自习室系列，主张把努力拆成可复现的每日动作。</p>
+            <div class="mn-author-foot">
+              <button type="button" data-mn-author="米娜">查看简介</button>
+              <button type="button" data-mn-share="米娜 的创作者主页">分享主页</button>
+            </div>
+          </div>
+        </article>
+        <article class="mn-author">
+          <div class="mn-avatar" style="background:linear-gradient(135deg,#1d4ed8,#2dd4bf)">禾</div>
+          <div>
+            <h3>苏禾 <span class="mn-chip">方法教程</span></h3>
+            <div class="mn-author-meta">擅长：笔记体系 / 效率工具 · 作品 184 · 粉丝 9.6万</div>
+            <p>前图书编辑，现全职内容创作者。擅长把模糊的学习经验拆成可执行步骤，视频里常见大量手写示范与对照实验。她坚持每个教程至少自用三个月才上线，拒绝「看一眼就会」式的标题党，是站内收藏率最高的创作者之一。</p>
+            <div class="mn-author-foot">
+              <button type="button" data-mn-author="苏禾">查看简介</button>
+              <button type="button" data-mn-share="苏禾 的创作者主页">分享主页</button>
+            </div>
+          </div>
+        </article>
+        <article class="mn-author">
+          <div class="mn-avatar" style="background:linear-gradient(135deg,#b45309,#f59e0b)">白</div>
+          <div>
+            <h3>林一白 <span class="mn-chip">访学观察</span></h3>
+            <div class="mn-author-meta">擅长：城市探索 / 在地文化 · 作品 142 · 粉丝 7.2万</div>
+            <p>常年在外访学与短期驻留，习惯用一支镜头记录城市里的学习空间。他关注的不是城市名片，而是图书馆的开放时间、社区自习室的插座密度、通勤路上的可背单词时段。作品节奏偏慢，信息密度却很高。</p>
+            <div class="mn-author-foot">
+              <button type="button" data-mn-author="林一白">查看简介</button>
+              <button type="button" data-mn-share="林一白 的创作者主页">分享主页</button>
+            </div>
+          </div>
+        </article>
+        <article class="mn-author">
+          <div class="mn-avatar" style="background:linear-gradient(135deg,#7c3aed,#f472b6)">舟</div>
+          <div>
+            <h3>阿舟 <span class="mn-chip">人物访谈</span></h3>
+            <div class="mn-author-meta">擅长：成长故事 / 深度访谈 · 作品 98 · 粉丝 5.4万</div>
+            <p>从挂科到保研的亲历者，如今把镜头对准别人的转折点。访谈不追热点，只问具体问题：那段时间几点睡、向谁求助、哪一句话真正起作用。他希望观众看完访谈后，能带走一个可以明天就做的动作。</p>
+            <div class="mn-author-foot">
+              <button type="button" data-mn-author="阿舟">查看简介</button>
+              <button type="button" data-mn-share="阿舟 的创作者主页">分享主页</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ M14 榜单 + M7 图文索引 ============ -->
+  <section class="mn-section" id="mn-rank">
+    <div class="mn-wrap">
+      <div class="mn-sec-head">
+        <span class="mn-eyebrow">Ranking & Index</span>
+        <h2>数据榜单与图文索引：用口碑验证品质</h2>
+        <p>热度榜按近七天播放与互动加权，口碑榜由观众评分与举报率共同决定。米娜学组坚持公开口径，帮助用户快速找到值得看的内容。</p>
+      </div>
+      <div class="mn-rank-grid">
+        <div class="mn-rank-card">
+          <h3>本周热度榜</h3>
+          <ul class="mn-rank-list">
+            <li><span class="mn-rank-no">01</span><span class="mn-rank-title">凌晨六点的图书馆：一百天自习室 08</span><span class="mn-rank-val">38.2万</span></li>
+            <li><span class="mn-rank-no">02</span><span class="mn-rank-title">从挂科到保研：阿舟的三年时间表复盘</span><span class="mn-rank-val">26.9万</span></li>
+            <li><span class="mn-rank-no">03</span><span class="mn-rank-title">把 90 分钟用成 3 小时：错题本改造实验</span><span class="mn-rank-val">21.4万</span></li>
+            <li><span class="mn-rank-no">04</span><span class="mn-rank-title">在陌生城市找到自己的自习位</span><span class="mn-rank-val">17.8万</span></li>
+            <li><span class="mn-rank-no">05</span><span class="mn-rank-title">纸质笔记与电子笔记如何分工</span><span class="mn-rank-val">14.2万</span></li>
+            <li><span class="mn-rank-no">06</span><span class="mn-rank-title">晚间自习室直播合集 · 11月第3周</span><span class="mn-rank-val">12.6万</span></li>
+          </ul>
+        </div>
+        <div class="mn-rank-card">
+          <h3>季度口碑榜与新人榜</h3>
+          <ul class="mn-rank-list">
+            <li><span class="mn-rank-no">01</span><span class="mn-rank-title">苏禾 · 教程类口碑第一</span><span class="mn-rank-val">9.7 分</span></li>
+            <li><span class="mn-rank-no">02</span><span class="mn-rank-title">米娜 · 自习纪录口碑第一</span><span class="mn-rank-val">9.6 分</span></li>
+            <li><span class="mn-rank-no">03</span><span class="mn-rank-title">林一白 · 访学观察口碑第三</span><span class="mn-rank-val">9.4 分</span></li>
+            <li><span class="mn-rank-no">04</span><span class="mn-rank-title">新人「小满同学」首月进榜</span><span class="mn-rank-val">9.1 分</span></li>
+            <li><span class="mn-rank-no">05</span><span class="mn-rank-title">新人「夜航书桌」连续四周上榜</span><span class="mn-rank-val">8.9 分</span></li>
+            <li><span class="mn-rank-no">06</span><span class="mn-rank-title">新人「复盘日记本」剪辑完成度最高</span><span class="mn-rank-val">8.8 分</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mn-index-grid">
+        <div class="mn-index-item">
+          <div class="mn-index-thumb">
+            <svg viewBox="0 0 160 90" role="img" aria-label="图文索引缩略图：书桌上的番茄钟与当日任务清单">
+              <rect width="160" height="90" fill="#0f2b33"/>
+              <circle cx="46" cy="46" r="22" fill="none" stroke="#34d399" stroke-width="3"/>
+              <path d="M46 30v16l10 8" stroke="#34d399" stroke-width="3" fill="none" stroke-linecap="round"/>
+              <rect x="86" y="26" width="52" height="7" rx="3" fill="#2dd4bf"/>
+              <rect x="86" y="42" width="42" height="6" rx="3" fill="#2c5c55"/>
+              <rect x="86" y="56" width="48" height="6" rx="3" fill="#2c5c55"/>
+            </svg>
+          </div>
+          <div>
+            <h4>番茄钟的三种变体：找到适合自己的节奏</h4>
+            <p>25/5、50/10 与 90/20 三套方案对照，附适用场景与切换建议。</p>
+          </div>
+        </div>
+        <div class="mn-index-item">
+          <div class="mn-index-thumb">
+            <svg viewBox="0 0 160 90" role="img" aria-label="图文索引缩略图：摊开的笔记本与三色批注标记">
+              <rect width="160" height="90" fill="#122a3a"/>
+              <path d="M20 64l34-26 34 26-34 6z" fill="#1e4a4a"/>
+              <rect x="30" y="66" width="48" height="4" rx="2" fill="#34d399"/>
+              <rect x="30" y="74" width="34" height="4" rx="2" fill="#2dd4bf" opacity=".7"/>
+              <circle cx="112" cy="36" r="14" fill="#34d399" opacity=".25"/>
+              <path d="M108 36l4 4 8-9" stroke="#34d399" stroke-width="3" fill="none" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div>
+            <h4>错题本三栏法：原题、错因、重做</h4>
+            <p>为什么只抄题目没有用，以及如何在一周内完成第一次重做。</p>
+          </div>
+        </div>
+        <div class="mn-index-item">
+          <div class="mn-index-thumb">
+            <svg viewBox="0 0 160 90" role="img" aria-label="图文索引缩略图：夜间台灯下的一页周复盘手稿">
+              <rect width="160" height="90" fill="#1b2233"/>
+              <path d="M60 20l24 40-52 4z" fill="#2dd4bf" opacity=".22"/>
+              <rect x="46" y="32" width="70" height="40" rx="5" fill="#26313f" stroke="#3d5964" stroke-width="2"/>
+              <path d="M58 46h46M58 56h34M58 66h40" stroke="#7dd3c0" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+              <circle cx="126" cy="26" r="8" fill="#f59e0b" opacity=".8"/>
+            </svg>
+          </div>
+          <div>
+            <h4>周复盘模板：一页纸装下一周</h4>
+            <p>任务完成率、情绪记录与下周三项重点，控制在十分钟内写完。</p>
+          </div>
+        </div>
+        <div class="mn-index-item">
+          <div class="mn-index-thumb">
+            <svg viewBox="0 0 160 90" role="img" aria-label="图文索引缩略图：城市图书馆的窗格与通勤路线">
+              <rect width="160" height="90" fill="#0d2830"/>
+              <rect x="18" y="18" width="52" height="54" rx="4" fill="none" stroke="#2dd4bf" stroke-width="2"/>
+              <path d="M18 45h52M44 18v54" stroke="#2dd4bf" stroke-width="2" opacity=".5"/>
+              <path d="M86 66c14-24 30-30 46-18" stroke="#34d399" stroke-width="3" fill="none" stroke-dasharray="5 5"/>
+              <circle cx="132" cy="48" r="5" fill="#34d399"/>
+            </svg>
+          </div>
+          <div>
+            <h4>通勤路上能做什么：一份碎片时间清单</h4>
+            <p>听力、背诵与轻度整理的分配方式，以及哪些任务不适合放通勤。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ S6 社区评价（双列） ============ -->
+  <section class="mn-section mn-section--tight" id="mn-community">
+    <div class="mn-wrap">
+      <div class="mn-sec-head">
+        <span class="mn-eyebrow">Community Voice</span>
+        <h2>社区评价：来自学习者与创作者的真实反馈</h2>
+        <p>评价来自米娜学组站内用户，经授权展示。我们不删差评，只隐藏违规内容。</p>
+      </div>
+      <div class="mn-comment-grid">
+        <article class="mn-cmt">
+          <div class="mn-cmt-head"><span class="mn-cmt-ava" style="background:#0f9f74">陈</span><span><span class="mn-cmt-name">陈默</span><br><span class="mn-cmt-tag">备考用户 · 观看 214 天</span></span></div>
+          <p>「一百天自习室」最难得的是没有剪掉走神。我去年备考时每天看一集，跟着调作息，最大的改变是接受了状态有波动这件事，不再因为某一天没完成计划就整周放弃。</p>
+        </article>
+        <article class="mn-cmt">
+          <div class="mn-cmt-head"><span class="mn-cmt-ava" style="background:#1d4ed8">周</span><span><span class="mn-cmt-name">周小满</span><br><span class="mn-cmt-tag">新人创作者 · 已投稿 12 支</span></span></div>
+          <p>作为新人投稿者，编辑部给的反馈很具体，不是一句「继续加油」。他们会指出第几分钟节奏掉了、字幕位置挡了笔记内容。这种反馈对提升剪辑真的有用。</p>
+        </article>
+        <article class="mn-cmt">
+          <div class="mn-cmt-head"><span class="mn-cmt-ava" style="background:#b45309">李</span><span><span class="mn-cmt-name">李知行</span><br><span class="mn-cmt-tag">在职学习 · 收藏 96 支</span></span></div>
+          <p>工作之后再学习，最缺的是整块时间。苏禾那支笔记分工的视频让我把输入和检索拆开了，现在纸质记要点、电子做检索，复习效率明显提高，这套方法我真的用了半年。</p>
+        </article>
+        <article class="mn-cmt">
+          <div class="mn-cmt-head"><span class="mn-cmt-ava" style="background:#7c3aed">吴</span><span><span class="mn-cmt-name">吴一诺</span><br><span class="mn-cmt-tag">高校学生 · 关注访学地图</span></span></div>
+          <p>访学城市自习地图这个专题很实用，尤其插座密度和闭馆时间这两项。之前我去外地交流，照着视频里说的先查开放时间再找住处，省了不少试错成本。</p>
+        </article>
+        <article class="mn-cmt">
+          <div class="mn-cmt-head"><span class="mn-cmt-ava" style="background:#0e7490">何</span><span><span class="mn-cmt-name">何清</span><br><span class="mn-cmt-tag">家长用户 · 陪读两年</span></span></div>
+          <p>陪孩子看了几期自习室直播，最大的感受是内容干净，没有夸张音效和焦虑营销。孩子现在会主动开着静音跟学，比我们催着写作业有效得多。</p>
+        </article>
+        <article class="mn-cmt">
+          <div class="mn-cmt-head"><span class="mn-cmt-ava" style="background:#be185d">郑</span><span><span class="mn-cmt-name">郑言</span><br><span class="mn-cmt-tag">深度用户 · 参与三届挑战赛</span></span></div>
+          <p>挑战赛的评选标准写得清楚，真实度、信息密度、剪辑完成度三项都公开。我连续参加三届，第一届没进榜，第二届进新人榜，第三届拿到官方认证，这个成长路径是可感知的。</p>
+        </article>
+        <article class="mn-cmt">
+          <div class="mn-cmt-head"><span class="mn-cmt-ava" style="background:#065f46">许</span><span><span class="mn-cmt-name">许南</span><br><span class="mn-cmt-tag">自由职业 · 关注访谈栏目</span></span></div>
+          <p>阿舟的访谈不贩卖焦虑，会问很具体的问题，比如那段时间几点睡、向谁求助。看完后我记住了「先求助再硬扛」这句话，后来真的用上了。</p>
+        </article>
+        <article class="mn-cmt">
+          <div class="mn-cmt-head"><span class="mn-cmt-ava" style="background:#9a3412">顾</span><span><span class="mn-cmt-name">顾亦安</span><br><span class="mn-cmt-tag">视频爱好者 · 关注画质与更新</span></span></div>
+          <p>画质统一，加载不卡，而且全部免费。作为官方网站能做到更新节奏稳定，这点比很多平台都强。唯一希望是专题回看列表能再加强一点，方便一次看完。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ S7 辅助：企业动态 / 合作 / FAQ ============ -->
+  <section class="mn-section" id="mn-help">
+    <div class="mn-wrap">
+      <div class="mn-sec-head">
+        <span class="mn-eyebrow">News & Help</span>
+        <h2>企业动态、合作伙伴与常见问题</h2>
+        <p>官方发布的内容更新与品牌资讯集中在此；投稿、观看、版权相关的问题也可以在这里找到答案。</p>
+      </div>
+      <div class="mn-aux-grid">
+        <div class="mn-panel">
+          <h3>企业动态 · 官方发布</h3>
+          <ul class="mn-news-list">
+            <li><span class="mn-news-date">2026-11-18</span><span>《一百天自习室》第 08 集上线，同步开启「冬季学习挑战赛」报名通道。</span></li>
+            <li><span class="mn-news-date">2026-11-10</span><span>投稿系统升级，支持 4K 高清原片上传与分镜脚本附件，审核周期缩短至三个工作日。</span></li>
+            <li><span class="mn-news-date">2026-10-28</span><span>米娜学组与四家高校图书馆达成内容合作，共建公开自习室拍摄点位。</span></li>
+            <li><span class="mn-news-date">2026-10-12</span><span>第三季度口碑榜发布，苏禾、米娜、林一白分列教程、自习纪录、访学观察类第一。</span></li>
+          </ul>
+          <h3 style="margin-top:22px">合作品牌与伙伴</h3>
+          <div class="mn-partner-grid">
+            <div class="mn-partner"><i></i>明远图书馆联盟</div>
+            <div class="mn-partner"><i></i>青禾文具</div>
+            <div class="mn-partner"><i></i>拾光自习室</div>
+            <div class="mn-partner"><i></i>知行教育基金会</div>
+            <div class="mn-partner"><i></i>南岭高校影像社</div>
+            <div class="mn-partner"><i></i>晚风咖啡工坊</div>
+          </div>
+        </div>
+        <div class="mn-panel">
+          <h3>常见问题</h3>
+          <div class="mn-faq">
+            <details>
+              <summary>米娜学组的Vlog需要付费或注册才能看吗？</summary>
+              <p>不需要。作为米娜学组官方网站，站内全部正片免费观看，无需注册即可播放。注册后可解锁收藏、评论、投稿与参与挑战赛等功能。</p>
+            </details>
+            <details>
+              <summary>网站上的视频是正版原创吗？</summary>
+              <p>是。所有上线正片均经创作者授权并完成版权登记，画面与配乐来源可追溯。如发现侵权内容，可通过举报反馈通道提交，我们会在两个工作日内处理。</p>
+            </details>
+            <details>
+              <summary>如何成为米娜学组的签约创作者？</summary>
+              <p>点击页面中的「我要投稿」提交样片与创作方向说明，编辑部会在一周内给出反馈。通过初审后进入学组练习生阶段，可获得脚本指导与拍摄器材借用支持。</p>
+            </details>
+            <details>
+              <summary>冬季学习挑战赛的评选标准是什么？</summary>
+              <p>共三项：真实度（是否完整呈现过程）、信息密度（单位时长内的有效信息）、剪辑完成度（音画与字幕规范）。三项权重相同，由编辑部与社区评审共同打分。</p>
+            </details>
+            <details>
+              <summary>可以在自己的平台转发米娜学组的视频吗？</summary>
+              <p>欢迎分享链接与截图。完整转载需取得书面授权，公益与教学用途可走快速申请通道，请通过投稿弹窗中的联系说明提交用途。</p>
+            </details>
+            <details>
+              <summary>自习室直播错过了还能回看吗？</summary>
+              <p>可以。每场直播结束后二十四小时内上传回放，保留环境音版本，适合作为学习背景音长期使用。</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 投稿 CTA ============ -->
+  <section class="mn-section mn-section--tight">
+    <div class="mn-wrap">
+      <div class="mn-cta">
+        <div>
+          <h2>把你的学习日常，交给米娜学组的镜头</h2>
+          <p>无论是一支十分钟的自习记录，还是一段完整的备考复盘，我们都欢迎真实、具体、有细节的作品。上传通道长期开放，优秀作品将进入首页焦点位与季度口碑榜。</p>
+        </div>
+        <div class="mn-cta-actions">
+          <button class="mn-btn mn-btn--primary" type="button" id="mn-cta-submit">立即投稿</button>
+          <button class="mn-btn mn-btn--soft" type="button" data-mn-share="米娜学组vlog免费观看网站">分享本站</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ 页脚 ============ -->
+<footer class="mn-footer">
+  <div class="mn-wrap">
+    <div class="mn-footer-grid">
+      <div>
+        <div class="mn-footer-brand">
+          <span class="mn-brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M9 6l10 6-10 6z" fill="#04261d"/></svg>
+          </span>
+          米娜学组
+        </div>
+        <p>米娜学组官方网站 · 版权所有 · 持续运营中。以原创高清 Vlog 记录真实学习日常，深耕学习影像垂直领域，与创作者共建值得信赖的内容生态。</p>
+      </div>
+      <div>
+        <h4>内容栏目</h4>
+        <ul>
+          <li><a href="#mn-videos">精选视频</a></li>
+          <li><a href="#mn-topics">专题企划</a></li>
+          <li><a href="#mn-rank">数据榜单</a></li>
+          <li><a href="#mn-community">社区评价</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于平台</h4>
+        <ul>
+          <li><a href="#mn-about">企业简介</a></li>
+          <li><a href="#mn-authors">创作者矩阵</a></li>
+          <li><a href="#mn-help">企业动态</a></li>
+          <li><a href="#mn-help">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>官方通道</h4>
+        <ul>
+          <li><a href="#mn-submit-btn" id="mn-footer-submit">创作投稿</a></li>
+          <li><a href="#mn-help">版权与举报</a></li>
+          <li><a href="#mn-help">合作洽谈</a></li>
+          <li><a href="#mn-hero">回到首页</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mn-footer-bottom">
+      <span>© 2019–2026 米娜学组 官方网站 · 正版原创内容，免费高清观看</span>
+      <span>持续运营 · 用户至上 · 匠心打磨每一条内容</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ 弹窗与提示 ============ -->
+<div class="mn-modal-mask" id="mn-modal-mask" role="dialog" aria-modal="true" aria-labelledby="mn-modal-title">
+  <div class="mn-modal">
+    <button class="mn-modal-close" type="button" id="mn-modal-close" aria-label="关闭弹窗">✕</button>
+    <h3 id="mn-modal-title">提示</h3>
+    <div id="mn-modal-body"></div>
+  </div>
+</div>
+<div class="mn-toast" id="mn-toast" role="status" aria-live="polite"></div>
+<button class="mn-totop" id="mn-totop" type="button" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- 移动端导航折叠 ---------- */
+  var navToggle = document.getElementById("mn-menu-toggle");
+  var nav = document.getElementById("mn-nav");
+  if(navToggle && nav){
+    navToggle.addEventListener("click", function(){
+      var open = nav.classList.toggle("mn-is-open");
+      navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    nav.addEventListener("click", function(e){
+      if(e.target.tagName === "A" && window.innerWidth <= 980){
+        nav.classList.remove("mn-is-open");
+        navToggle.setAttribute("aria-expanded","false");
+      }
+    });
+  }
+
+  /* ---------- Toast ---------- */
+  var toast = document.getElementById("mn-toast");
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toast) return;
+    toast.textContent = msg;
+    toast.classList.add("mn-is-show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){
+      toast.classList.remove("mn-is-show");
+    }, 2200);
+  }
+
+  /* ---------- 搜索前端反馈 ---------- */
+  var searchInput = document.getElementById("mn-search-input");
+  var searchTip = document.getElementById("mn-search-tip");
+  var searchPool = [
+    "一百天自习室 · 自习纪录专题",
+    "错题本三栏法 · 方法教程",
+    "访学城市自习地图 · 城市探索",
+    "阿舟访谈 · 从挂科到保研",
+    "纸质笔记与电子笔记分工 · 苏禾",
+    "夜间自习室直播回放 · 米娜学组",
+    "冬季学习挑战赛 · 报名中",
+    "周复盘模板 · 一页纸装下一周"
+  ];
+  if(searchInput && searchTip){
+    searchInput.addEventListener("input", function(){
+      var v = searchInput.value.trim();
+      if(!v){
+        searchTip.classList.remove("mn-is-show");
+        searchTip.textContent = "";
+        return;
+      }
+      var hits = searchPool.filter(function(item){
+        return item.toLowerCase().indexOf(v.toLowerCase()) > -1;
+      }).slice(0,4);
+      searchTip.classList.add("mn-is-show");
+      if(hits.length){
+        searchTip.innerHTML = "找到 " + hits.length + " 条相关内容：" + hits.join("；");
+      }else{
+        searchTip.textContent = "暂未匹配到「" + v + "」，换个关键词试试，例如「自习」「复盘」「访学」。";
+      }
+    });
+    searchInput.addEventListener("keydown", function(e){
+      if(e.key === "Enter"){
+        e.preventDefault();
+        showToast("已为「" + searchInput.value.trim() + "」记录搜索意向，可前往精选视频浏览");
+      }
+    });
+    document.addEventListener("click", function(e){
+      if(!e.target.closest(".mn-search")){
+        searchTip.classList.remove("mn-is-show");
+      }
+    });
+  }
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  var likeBtns = document.querySelectorAll("[data-mn-like]");
+  Array.prototype.forEach.call(likeBtns, function(btn){
+    btn.addEventListener("click", function(){
+      var active = btn.classList.toggle("mn-is-liked");
+      var b = btn.querySelector("b");
+      if(b){
+        var num = parseInt(b.textContent.replace(/,/g,""),10) || 0;
+        num = active ? num + 1 : Math.max(num - 1, 0);
+        b.textContent = num.toLocaleString("en-US");
+      }
+      showToast(active ? "已点赞，感谢支持原创内容" : "已取消点赞");
+    });
+  });
+
+  var saveBtns = document.querySelectorAll("[data-mn-save]");
+  Array.prototype.forEach.call(saveBtns, function(btn){
+    btn.addEventListener("click", function(){
+      var active = btn.classList.toggle("mn-is-saved");
+      btn.textContent = active ? "★ 已收藏" : "☆ 收藏";
+      showToast(active ? "已加入收藏夹，可稍后回看" : "已取消收藏");
+    });
+  });
+
+  /* ---------- 弹窗基础 ---------- */
+  var mask = document.getElementById("mn-modal-mask");
+  var modalTitle = document.getElementById("mn-modal-title");
+  var modalBody = document.getElementById("mn-modal-body");
+  var modalClose = document.getElementById("mn-modal-close");
+  function openModal(title, html){
+    if(!mask) return;
+    modalTitle.textContent = title;
+    modalBody.innerHTML = html;
+    mask.classList.add("mn-is-open");
+    document.body.style.overflow = "hidden";
+  }
+  function closeModal(){
+    if(!mask) return;
+    mask.classList.remove("mn-is-open");
+    document.body.style.overflow = "";
+  }
+  if(modalClose){ modalClose.addEventListener("click", closeModal); }
+  if(mask){
+    mask.addEventListener("click", function(e){
+      if(e.target === mask){ closeModal(); }
+    });
+  }
+  document.addEventListener("keydown", function(e){
+    if(e.key === "Escape"){ closeModal(); }
+  });
+
+  /* ---------- 评论弹窗 ---------- */
+  var commentBtns = document.querySelectorAll("[data-mn-comment]");
+  Array.prototype.forEach.call(commentBtns, function(btn){
+    btn.addEventListener("click", function(){
+      openModal("写下你的评论", [
+        '<p>评论将展示在精选视频下方，米娜学组编辑会定期选取优质评论参与月度共学话题。</p>',
+        '<div class="mn-form-row"><label for="mn-cmt-area">评论内容</label>',
+        '<textarea id="mn-cmt-area" placeholder="说说这支Vlog让你想起自己的哪段学习经历……"></textarea></div>',
+        '<div class="mn-form-actions">',
+        '<button class="mn-btn mn-btn--soft" type="button" data-mn-close>取消</button>',
+        '<button class="mn-btn mn-btn--primary" type="button" id="mn-cmt-send">提交评论</button>',
+        '</div>'
+      ].join(""));
+      var send = document.getElementById("mn-cmt-send");
+      if(send){
+        send.addEventListener("click", function(){
+          var ta = document.getElementById("mn-cmt-area");
+          if(!ta || !ta.value.trim()){
+            showToast("评论内容不能为空");
+            return;
+          }
+          closeModal();
+          showToast("评论已提交，审核通过后展示");
+        });
+      }
+    });
+  });
+
+  /* ---------- 作者简介弹窗 ---------- */
+  var authorBtns = document.querySelectorAll("[data-mn-author]");
+  var authorInfo = {
+    "米娜": {fields:"自习纪录 / 备考复盘", works:"326", fans:"21.8万", txt:"米娜学组主理人，坚持不补拍、不美化，把走神与返工留在镜头里。代表系列《一百天自习室》，主张把努力拆成可复现的每日动作。"},
+    "苏禾": {fields:"笔记体系 / 效率工具", works:"184", fans:"9.6万", txt:"前图书编辑，现全职内容创作者。每个教程至少自用三个月才上线，擅长把模糊经验拆成可执行步骤，是站内收藏率最高的创作者之一。"},
+    "林一白": {fields:"城市探索 / 在地文化", works:"142", fans:"7.2万", txt:"常年在外访学与短期驻留，用镜头记录城市里的学习空间与通勤路线。节奏偏慢，信息密度高，主张先查开放时间再找住处。"},
+    "阿舟": {fields:"成长故事 / 深度访谈", works:"98", fans:"5.4万", txt:"从挂科到保研的亲历者，如今把镜头对准别人的转折点。访谈只问具体问题，希望观众能带走一个明天就能做的动作。"}
+  };
+  Array.prototype.forEach.call(authorBtns, function(btn){
+    btn.addEventListener("click", function(){
+      var name = btn.getAttribute("data-mn-author");
+      var info = authorInfo[name];
+      if(!info) return;
+      openModal(name + " · 创作者简介", [
+        '<p><strong>擅长领域：</strong>' + info.fields + '</p>',
+        '<p><strong>作品数：</strong>' + info.works + ' · <strong>粉丝数：</strong>' + info.fans + '</p>',
+        '<p>' + info.txt + '</p>',
+        '<p>该创作者已通过米娜学组官方认证，内容经选题审、成片审与上线前合规审三道流程。</p>',
+        '<div class="mn-form-actions"><button class="mn-btn mn-btn--primary" type="button" data-mn-close>知道了</button></div>'
+      ].join(""));
+    });
+  });
+
+  /* ---------- 投稿弹窗 ---------- */
+  var submitBtns = [
+    document.getElementById("mn-submit-btn"),
+    document.getElementById("mn-cta-submit"),
+    document.getElementById("mn-footer-submit")
+  ];
+  function openSubmit(){
+    openModal("创作投稿 · 官方通道", [
+      '<p>米娜学组欢迎真实、具体、有细节的学习影像。提交后编辑部将在一周内反馈。</p>',
+      '<div class="mn-form-row"><label for="mn-sub-name">创作者昵称</label><input id="mn-sub-name" type="text" placeholder="例如：夜航书桌"></div>',
+      '<div class="mn-form-row"><label for="mn-sub-type">投稿类型</label>',
+      '<select id="mn-sub-type"><option>单日学习记录</option><option>周复盘</option><option>方法教程</option><option>访学城市记录</option><option>人物访谈</option></select></div>',
+      '<div class="mn-form-row"><label for="mn-sub-desc">内容简介</label><textarea id="mn-sub-desc" placeholder="说明这支片子解决了什么问题，以及你的拍摄计划……"></textarea></div>',
+      '<div class="mn-form-actions">',
+      '<button class="mn-btn mn-btn--soft" type="button" data-mn-close>稍后再说</button>',
+      '<button class="mn-btn mn-btn--primary" type="button" id="mn-sub-send">提交投稿</button>',
+      '</div>'
+    ].join(""));
+    var send = document.getElementById("mn-sub-send");
+    if(send){
+      send.addEventListener("click", function(){
+        var name = document.getElementById("mn-sub-name");
+        var desc = document.getElementById("mn-sub-desc");
+        if(!name || !name.value.trim()){
+          showToast("请填写创作者昵称");
+          return;
+        }
+        if(!desc || desc.value.trim().length < 10){
+          showToast("内容简介至少填写 10 个字");
+          return;
+        }
+        closeModal();
+        showToast("投稿已提交，请留意官方反馈通知");
+      });
+    }
+  }
+  Array.prototype.forEach.call(submitBtns, function(b){
+    if(b){
+      b.addEventListener("click", function(e){
+        e.preventDefault();
+        openSubmit();
+      });
+    }
+  });
+
+  /* ---------- 分享（复制链接 + 提示） ---------- */
+  var shareBtns = document.querySelectorAll("[data-mn-share]");
+  Array.prototype.forEach.call(shareBtns, function(btn){
+    btn.addEventListener("click", function(){
+      var title = btn.getAttribute("data-mn-share") || "米娜学组vlog免费观看网站";
+      var link = window.location.href;
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(link).then(function(){
+          showToast("链接已复制，可分享给同好：" + title);
+        }).catch(function(){
+          showToast("可分享至微信 / 微博 / QQ：" + title);
+        });
+      }else{
+        showToast("可分享至微信 / 微博 / QQ：" + title);
+      }
+    });
+  });
+
+  /* ---------- 通用关闭按钮（弹窗内） ---------- */
+  document.addEventListener("click", function(e){
+    if(e.target.closest("[data-mn-close]")){ closeModal(); }
+  });
+
+  /* ---------- 回到顶部 ---------- */
+  var toTop = document.getElementById("mn-totop");
+  if(toTop){
+    window.addEventListener("scroll", function(){
+      if(window.scrollY > 520){ toTop.classList.add("mn-is-show"); }
+      else{ toTop.classList.remove("mn-is-show"); }
+    }, {passive:true});
+    toTop.addEventListener("click", function(){
+      window.scrollTo({top:0, behavior:"smooth"});
+    });
+  }
+
+  /* ---------- 导航高亮 ---------- */
+  var navLinks = document.querySelectorAll(".mn-nav a");
+  var sections = [];
+  Array.prototype.forEach.call(navLinks, function(a){
+    var id = a.getAttribute("href");
+    if(id && id.charAt(0) === "#"){
+      var el = document.querySelector(id);
+      if(el){ sections.push({el:el, link:a}); }
+    }
+  });
+  if(sections.length && "IntersectionObserver" in window){
+    var obs = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          Array.prototype.forEach.call(navLinks, function(a){ a.classList.remove("mn-is-active"); });
+          var hit = sections.filter(function(s){ return s.el === en.target; })[0];
+          if(hit){ hit.link.classList.add("mn-is-active"); }
+        }
+      });
+    }, {rootMargin:"-45% 0px -50% 0px"});
+    sections.forEach(function(s){ obs.observe(s.el); });
+  }
+})();
+</script>
+</body>
+                                                  </html>
